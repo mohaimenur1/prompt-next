@@ -12,7 +12,7 @@ const Feed = async () => {
       <div className="max-w-6xl mx-auto">
         {prompts.map((prompt) => (
           <div
-            className="shadow-[rgba(0,_0,_0,_0.2)_0px_60px_40px_-7px] p-10"
+            className="shadow-[inset_-12px_-8px_40px_#46464620] rounded-lg p-10"
             key={prompt._id}
           >
             <h2 className="text-start text-semibold mb-10">{prompt.prompt}</h2>
